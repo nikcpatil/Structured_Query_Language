@@ -1,8 +1,16 @@
-#creat table
+#CREATE TABLE
 
-#insert values in the table
+CREATE TABLE Table_name(Column_name1 datatype(size), column_name2 datatype(size), column_name3 datatype(size)...);
+EX: CREATE TABLE Employee(Employee_id int, Employee_Name varchar(30), salary float);
 
-#update table
+#INSERT VALUES INTO TABLE
+
+INSERT INTO TABLE Table_name values(&value1, &value2, &value3..);
+EX: INSERT INTO Employee(101, "Nikita", 80000);
+
+#UPDATE TABLE
+
+
 
 #delete table
 
