@@ -1,0 +1,4 @@
+#ORDER BY: sort records..ascending or descending
+Ex:
+select * from employee order by Name;
+select * from employee order by salary desc;
