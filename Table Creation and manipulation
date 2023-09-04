@@ -22,6 +22,11 @@ EX: Update Employee SET Salary=90000 where Employee_id = 101;
 #DELETE, DROP, TRUNCATE TABLE:
 
 DELETE From TABLE WHERE condition;
+EX: DELECTE from Employee where Employee_id = 101;
+DROP TABLE Table_name;
+Ex: Drop table Employee;
+TRUNCATE TABLE table_name;
+Ex: Truncate table Employee;
 
 
 
