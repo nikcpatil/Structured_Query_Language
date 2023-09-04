@@ -1,0 +1,9 @@
+#Wild characters used with like operator
+#1. % --> This is a substitute for zero or more chaeacters
+Ex:
+Select * from employee where name like 'A%';
+Select * from employee where name like '%A';
+
+#2. _ --> This is substitute for single characters
+Ex:
+Select * from employee where name like '_A';
