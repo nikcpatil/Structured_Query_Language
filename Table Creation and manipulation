@@ -4,10 +4,15 @@ CREATE TABLE Table_name(Column_name1 datatype(size), column_name2 datatype(size)
 EX: CREATE TABLE Employee(Employee_id int, Employee_Name varchar(30), salary float);
 
 #Adding Constraints:
-#Primary Key
+#1. Primary Key
 
-CREATE TABLE Table_name(Column_name1 datatyoe(size), Column_name2 datatype(size),..... PRIMARY KEY(Column_name1);
+CREATE TABLE Table_name(Column_name1 datatype(size), Column_name2 datatype(size),..... PRIMARY KEY(Column_name1);
 EX: Create table Employee(Employee_id int, Employee_Name varchar(30), salary float, PRIMARY KEY(Employee_id));
+
+#2. Foreign key
+
+create table table_name(Column_name datatype(size) PRIMARY KEY, Column_name2 datatype(size),.... FORRIGN KEY(Column_name) REFERENCE TABLE Table_name(column_name);
+Ex: Create table Employee_UNI(Id int PRIMARY KEY, FOREIGN KEY(E_id) refrence table Employee(Employee_id));
 
 #INSERT VALUES INTO TABLE
 
@@ -28,5 +33,9 @@ Ex: Drop table Employee;
 TRUNCATE TABLE table_name;
 Ex: Truncate table Employee;
 
+#Alter Table
+
+alter Table table_name add column_name datatype;
+EX: alter table employee add Email varchar(250);
 
 
