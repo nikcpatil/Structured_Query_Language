@@ -1,0 +1,11 @@
+#SELECT Syntax
+Select column_name1, column_name2,....
+from table_name;
+OR
+Select * from table_name;
+
+#Examples:
+
+select * from employee;
+select distinct name from employee;
+select employee_id, name where salary> 60000;
