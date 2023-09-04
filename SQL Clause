@@ -2,3 +2,10 @@
 Ex:
 select * from employee order by Name;
 select * from employee order by salary desc;
+
+#Where clause: used to apply any condition while manipulating the data
+#Syntax:
+select column_name1, column_name2,..... from employee where condition;
+#EX:
+select * from employee where employee_id ='101';
+
