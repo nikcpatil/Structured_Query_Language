@@ -9,3 +9,8 @@ select column_name1, column_name2,..... from employee where condition;
 #EX:
 select * from employee where employee_id ='101';
 
+#Group by: used to arrange identical data
+#Syntax:
+select Column_name1, Column_name2 from table_name where condition group by column_name 2;
+#EX:
+select count(Employee_id), Employee name from employee group by Employee_name;
