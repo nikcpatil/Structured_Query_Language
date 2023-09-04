@@ -14,3 +14,9 @@ select * from employee where employee_id ='101';
 select Column_name1, Column_name2 from table_name where condition group by column_name 2;
 #EX:
 select count(Employee_id), Employee name from employee group by Employee_name;
+
+#Having clause: to give more precise condition
+#Syntax:
+Select Column_name function(column_name) from Table_name where condition group by Column_name having function(column_name);
+#Ex:
+select count(Employee_id), name from employee having count(employee_id)>220;
